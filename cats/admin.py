@@ -14,7 +14,6 @@ class CatAdminView(admin.ModelAdmin):
     )
 
     list_filter = (
-        'breed',
         'body_type',
         'coat_type_and_length',
         'coat_pattern',
