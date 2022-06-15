@@ -14,5 +14,5 @@ urlpatterns = [
     path('rest/breed_name/', views.filter_by_name, name='breed_name'),
 
     # templates
-    path('home/', views.home, name='home'),
+    path('', views.home, name='home'),
 ]

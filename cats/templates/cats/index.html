@@ -1,0 +1,51 @@
+<!-- extend base template -->
+{% extends 'base.html' %}
+<!-- extend base template -->
+
+<!-- title -->
+{% block title %} Home {% endblock %}
+<!-- title -->
+
+<!-- app -->
+{% block app %}
+<div class="app">
+  <!--  -->
+  <section class="hero is-light is-fullheight">
+    <div class="hero-body">
+      <div class="card has-background-grey">
+        <div class="card-image">
+          <figure class="image is-4by3">
+            <img
+              src="https://res.cloudinary.com/dit0fii18/image/upload/v1583817689/samples/animals/kitten-playing.gif"
+              alt="Placeholder image"
+            />
+          </figure>
+        </div>
+        <div class="card-content">
+          <p class="title has-text-dark">Cat Breed API</p>
+          <p class="subtitle has-text-dark">GraphQL and REST implementation</p>
+        </div>
+        <footer class="card-footer">
+          <a
+            href="https://docs.graphene-python.org/projects/django/en/latest/"
+            class="card-footer-item has-background-warning"
+            >Graphene</a
+          >
+          <a
+            href="https://www.django-rest-framework.org/"
+            class="card-footer-item has-background-danger"
+            >DRF</a
+          >
+          <a
+            href="https://www.djangoproject.com/"
+            class="card-footer-item has-background-primary-dark"
+            >Django</a
+          >
+        </footer>
+      </div>
+    </div>
+  </section>
+  <!--  -->
+</div>
+{% endblock %}
+<!-- app -->

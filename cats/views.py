@@ -26,4 +26,4 @@ def filter_by_name(request):
 
 def home(request):
 
-    return render(request, 'index.html')
+    return render(request, 'cats/index.html')
