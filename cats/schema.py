@@ -14,11 +14,17 @@ class Query(graphene.ObjectType):
 
     all_breeds = graphene.List(BreedType)
 
+    all_breeds_limit_5 = graphene.List(BreedType)
+
     breed_by_name = graphene.Field(BreedType, breed=graphene.String(required=True))
 
     def resolve_all_breeds(root, info):
 
         return Cat.objects.all()
+
+    def resolve_all_breeds_limit_5(root, info):
+
+        return Cat.objects.all()[:5]
 
     def resolve_breed_by_name(root, info, breed):
 

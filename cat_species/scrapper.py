@@ -4,8 +4,8 @@ import shutil
 import string
 import random
 import requests
-from alive_progress import alive_bar
 from bs4 import BeautifulSoup
+from alive_progress import alive_bar
 
 def get_images(url):
 

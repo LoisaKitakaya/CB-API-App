@@ -1,5 +1,5 @@
-from django.contrib import admin
 from .models import Cat
+from django.contrib import admin
 
 # Register your models here.
 @admin.register(Cat)
