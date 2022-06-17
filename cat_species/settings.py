@@ -83,10 +83,10 @@ WSGI_APPLICATION = 'cat_species.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'cats_db',
-        'USER': 'postgres',
-        'PASSWORD': '#Kitloisa15',
-        'HOST': 'localhost',
+        'NAME': 'd6tdghk7gch1fc',
+        'USER': 'rlokvzltedeulw',
+        'PASSWORD': '3215d8c8795e3901820873dfda95344b67cab2cceeb4a07a9898339df14cf955',
+        'HOST': 'ec2-52-73-155-171.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
